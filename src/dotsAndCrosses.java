@@ -49,7 +49,7 @@ public  class dotsAndCrosses  {
 
     public void initMap() {
         for (int i = 0; i < SIZE; i++) {
-            for (int j = 0; j < SIZE; j++) {// инициализация и циклы заполнение игрового поля точками
+            for (int j = 0; j < SIZE; j++) {// инициализация и циклы заполнение игрового поля точками.
                 map[i][j] = DOT_EMPTY;
             }
         }
